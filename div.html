@@ -33,6 +33,35 @@
     <div class="abes2">
         <h1>Staff</h1>
     </div>
+    
+    <!-- Radio button demo -->
+    <section style="margin:20px; text-align:center;">
+        <fieldset style="display:inline-block; text-align:left; padding:12px;">
+            <legend>Select your department</legend>
+
+            <input type="radio" id="dept-cse" name="dept" value="CSE">
+            <label for="dept-cse">Computer Science (CSE)</label><br>
+
+            <input type="radio" id="dept-me" name="dept" value="ME">
+            <label for="dept-me">Mechanical (ME)</label><br>
+
+            <input type="radio" id="dept-ee" name="dept" value="EE" checked>
+            <label for="dept-ee">Electrical (EE)</label>
+        </fieldset>
+
+        <div style="margin-top:12px;">
+            <button id="showDept">Show selected department</button>
+            <span id="result" style="margin-left:12px; font-weight:bold"></span>
+        </div>
+    </section>
+
+    <script>
+    document.getElementById('showDept').addEventListener('click', function () {
+        const sel = document.querySelector('input[name="dept"]:checked');
+        const out = document.getElementById('result');
+        out.textContent = sel ? sel.value : 'No selection';
+    });
+    </script>
        
 </body>
 </html>
