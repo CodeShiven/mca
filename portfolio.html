@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    /* Responsive video styles */
+    .responsive-video {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      display: block;
+      margin: 12px auto;
+    }
+    figure.video {
+      margin: 18px auto;
+      max-width: 920px;
+    }
+    figcaption.video-caption {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #333;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+
+
+<body style="background-color: ;">
+    <h1 style="background-color: rgb(166, 229, 208); display: flex;justify-content: center;text-decoration: underline;">
+        My Portfolio</h1>
+    <h2 style="display: flex;justify-content: center;text-decoration: underline;">[Introduction]</h2>
+    <h3>Name- Shivendra Vishwakarma</h3>
+    <h3>Admission no- 2025M01410079</h3>
+    <h3>Branch-MCA</h3>
+    <h3>Section-C</h3>
+    <h3>Topic-Creating a portfolio page using HTML.</h3>
+    <div>
+        <ul>
+            <h2>Links:</h2>
+            <li>
+                <a href="http://Youtube.com" target="_blank"><b><i>YOUTUBE <br></i></b></a>
+            </li>
+            <li>
+                <a href="http://Linkedin.com" target="_blank"><b><i>LINKEDIN</b></i></a>
+            </li>
+        </ul>
+    </div>
+
+<!-- Video: put video.mp4 and poster.jpg in the same folder as this HTML file
+     or change the paths below to where your files are stored. -->
+<figure class="video">
+  <video class="responsive-video" controls poster="poster.jpg">
+    <source src="video.mp4" type="video/mp4">
+    <!-- Optional additional formats:
+    <source src="video.webm" type="video/webm">
+    <source src="video.ogv" type="video/ogg">
+    -->
+    <!-- Optional captions (create captions_en.vtt and uncomment):
+    <track kind="captions" srclang="en" src="captions_en.vtt" label="English">
+    -->
+    Your browser does not support the video element. You can
+    <a href="video.mp4">download the video</a> instead.
+  </video>
+  <figcaption class="video-caption">Describe the video here (replace this text).</figcaption>
+</figure>
+
+
+
+
+<table border="2" style="border-style: double;">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td>30</td>
+  </tr>
+</table>
+
+
+
+
+
+</body>
+</html>
