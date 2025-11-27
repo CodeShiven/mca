@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        div{
+            overflow-x: auto;
+        }
+        #responsive{
+            text-align: center;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 90vw;
+            
+        }
+        #nest{
+            border-collapse: collapse;
+        }
+         td{
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+    <H1>Tables</H1>
+    <div>
+
+        <table  id="responsive" border="1">
+            <caption>Caption</caption>
+            <thead>
+                <tr >
+                    <th>Head1</th>
+                    <th>Head2</th>
+                    <th colspan="2">Head3</th>
+                </tr>
+            </thead>
+                <tr >
+                    <td>R2,C1</td>
+                    <td>R2,C2</td>
+                    <td rowspan="2">
+                        <TAble id="nest" border="1">
+                            <TR>
+                                <TD>NESTEDR1C1</TD>
+                                <TD>NESTEDR1C2</TD>
+                            </TR>
+                            <TR>
+                                <TD>NESTEDR2C1</TD>
+                                <TD>NESTEDR2C2</TD>
+                            </TR>
+                        </TAble>
+                    </td>
+                </tr>
+                <tr>
+                    <td>R3,C1</td>
+                    <td>R3,C2</td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
