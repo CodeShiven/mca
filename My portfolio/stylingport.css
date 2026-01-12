@@ -1,0 +1,49 @@
+        * {
+            background-color: bisque;
+        }
+          nav {
+            display: flex;
+            align-items: center;
+            background-color: mistyrose;
+            height: 80px;
+            border-radius: 25px;
+            font-family: cursive;
+        }
+        
+        .logo {
+            display: flex;
+            color: black;
+            font-size: larger;
+            background-color: mistyrose;
+            
+        }
+        .logo h2 {
+            margin-left: 25px;
+            font-family: cursive;
+            background-color: mistyrose;
+
+        }
+        .navigation {
+            margin-left: 825px;
+            background-color: mistyrose;
+
+        }
+        .navigation ul {
+            display: flex;
+            justify-content: space-around;
+            background-color: mistyrose;
+
+        }
+        .navigation ul li {
+            padding-left: 25px;
+            list-style: none;
+            background-color: mistyrose;
+
+        }
+        .links {
+            color: tomato;
+            font-weight: 550;
+            font-size: large;
+            background-color: mistyrose;
+
+        }

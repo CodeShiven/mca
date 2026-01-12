@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Making cards</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 20px;
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 5 5;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+        .card {
+            background-color: palevioletred;
+            padding: 20px;
+            margin: 20px;
+            min-height:350px;
+            border-radius: 20px;
+            box-shadow:0 2px 8px;
+            transition: transform 0.3s ease
+        }
+        .card-content {
+            padding: 25px;
+            margin: 20px;
+        }
+
+        header {
+            padding: 22px;
+
+        }
+        nav {
+            background-color: antiquewhite;
+            border-radius: 20px;
+            text-align: center;
+            padding: 25px;
+
+        }
+        nav a {
+            padding: 25px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            transition: transform 0.3s ease;
+            color: aqua;
+            font-size: 1.2rem;
+            background-color: blueviolet;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to  my page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">links</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+
+        <div class="card">
+
+            
+            <h3>Learning how to make cards in html</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                <a href="#">Read More:</a>
+            </p>
+        
+        </div>
+        <div class="card">
+
+            <h3>Learning how to make cards in html</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                <a href="#">Follow:</a>
+            </p>
+        </div>
+        <div class="card">
+
+            <h3>Learning how to make cards in html</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                <a href="#">MCA:</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
