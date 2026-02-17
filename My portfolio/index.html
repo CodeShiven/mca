@@ -50,7 +50,7 @@
         .hero {
             display: flex;
             align-items: center;
-            gap: 190px;
+            gap: 120px;
             /* space between photo and text */
             padding: 20px;
         }
@@ -66,7 +66,7 @@
             border-radius: 25px;
             display: block;
             margin-top: 80px;
-            margin-left: 150px;
+            margin-left: 250px;
         }
 
         .right {
@@ -74,22 +74,29 @@
             flex-direction: column;
             color: aliceblue;
             font-size: xx-large;
+            gap: 0px;
             margin-top: 85px;
+            font-family: cursive;
         }
 
         .about {
             color: aliceblue;
             display: flex;
             padding: 20px;
-            justify-content: flex-start;
+            font-family: cursive;
+            font-weight: bolder;
+            margin-top: 35px;
+            justify-content: center;
         }
 
         .skills {
             display: flex;
-            margin-left: 75px;
+            margin-left: 110px;
             gap: 210px;
-            padding: 0 20px 20px;
+            margin-top: 90px;
+            padding: 0 30px 20px;
             align-items: center;
+            font-weight: bold;
         }
 
         .card {
@@ -100,26 +107,62 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 2px;
             color: aliceblue;
             text-decoration: none;
             font-family: cursive;
         }
 
         .card img {
-            width: 85px;
+            width: 70px;
             height: auto;
             display: block;
         }
-        .foot{
+
+        .foot {
             background-color: rgba(0, 0, 0, 0.36);
             color: aliceblue;
             display: flex;
             justify-content: center;
             font-size: xx-large;
         }
-        
 
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        a:hover {
+            transform: scale(1.2);
+            color: aqua;
+        }
+
+        .foot img {
+            display: flex;
+            padding: 30px;
+            width: 25px;
+            height: auto;
+            filter: brightness(2) invert(1);
+            margin: 1px;
+        }
+
+        .foot a {
+            color: aliceblue;
+        }
+
+        .proj {
+            color: aliceblue;
+            display: flex;
+            margin-left: 25px;
+            font-family: cursive;
+            font-weight: bolder;
+            justify-content: center;
+        }
+
+        .proj a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: larger;
+        }
     </style>
 
 </head>
@@ -133,7 +176,8 @@
             <div class="nav-links">
                 <a class="links" href="#">Home</a>
                 <a class="links" href="#">About</a>
-                <a class="links" href="#">Skills</a>
+                <a class="links" href="/mca web/My portfolio/index.html">Skills</a>
+                <a class="links" href="#">Projects</a>
                 <a class="links" href="#">Contact</a>
             </div>
         </nav>
@@ -144,14 +188,19 @@
             <img src="mypic.png" alt="myimage">
         </div>
         <div class="right">
-            <p>Hi, I'm Shivendra and <br> i am a web <br>Developer.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit.sdas dad awdaw awwd </p>
+            <p><b>Hi, I'm Shivendra</b> and <br> i am a web Developer.</p>
+            <h3>Passionate to create <br> amazing websites.</h3>
         </div>
     </section>
-    <hr style="color: aliceblue;height:0.1px;">
-    <h2 class="about">About My Skills:-</h2>
-
+    <h2 class="about">About Me:-</h2>
+    <p class="about">I have completed my Master of Computer Applications (MCA) from ABES Engineering College. I am a
+        passionate
+        front-end developer with a strong foundation in HTML, CSS, and basic JavaScript. I enjoy creating clean,
+        responsive, and user-friendly web interfaces. I am familiar with core front-end concepts such as page layout,
+        navigation bars, flexbox, basic animations, and styling best practices. Currently, I am continuously improving
+        my skills by building practice projects and learning modern web development techniques. I am eager to apply my
+        knowledge in real-world projects, gain hands-on experience through internships, and grow as a full-stack
+        developer in the future.</p>
     <div class="skills">
         <div class="card">
             <a href="#"><img src="c-logo-icon-28389.png" alt="C++ logo">C++</a>
@@ -169,9 +218,29 @@
             <a href="#"><img src="Git.png" alt="Git logo">Git</a>
         </div>
     </div>
+
+    <h2 class="about">My Projects:-</h2>
+    <div class="proj">
+        <ul>
+            <li><a href="#">Cookbook :-</a>(A Cookbook website is an online platform where users can explore, learn, and
+                share
+                cooking recipes. It typically includes a collection of recipes organized by categories like cuisine,
+                meal type, or ingredients. Each recipe usually provides details such as ingredients, step-by-step
+                instructions, cooking time, and sometimes images or videos. The main purpose of a cookbook website
+                is to make cooking easier, inspire people to try new dishes, and help users plan meals conveniently
+                from anywhere.)</li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+    </div>
+
+
+
     <hr style="color: aliceblue;">
     <footer class="foot">
-        Thanks for coming
+        <a href="https://www.linkedin.com/in/shivendra-vishwakarma-96baa7294/"><img src="linkedin.png"
+                alt="linkedin"></a>
+        <a href="https://www.instagram.com/22_shipu/"><img src="instagram.png" alt="insta"></a>
+        <a href="https://github.com/CodeShiven"><img src="github.png" alt="github"></a>
     </footer>
 
 
